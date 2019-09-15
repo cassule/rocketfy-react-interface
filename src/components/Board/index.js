@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { loadLists } from "../../services/api";
 
+import BoardContext from "./context";
+
 import { Container } from "./styles";
 
 import List from "../List";
@@ -16,10 +18,12 @@ export default function Board() {
   }
 
   return (
-    <Container>
-      {lists.map(list => (
-        <List key={list.title} data={list} />
-      ))}
-    </Container>
+    <BoardContext.Provider value={{ lists, move }}>
+      <Container>
+        {lists.map(list => (
+          <List key={list.title} data={list} />
+        ))}
+      </Container>
+    </BoardContext.Provider>
   );
 }
