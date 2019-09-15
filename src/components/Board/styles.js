@@ -2,6 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  padding: 30 0;
-  height: calc(100% - 80);
+  padding: 30px 0;
+  height: calc(100% - 80px);
 `;
