@@ -12,7 +12,7 @@ export const Container = styled.div`
 
   header {
     position: absolute;
-    top: -22;
+    top: -22px;
     left: 15px;
   }
 
