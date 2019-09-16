@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
   position: relative;
@@ -44,7 +44,7 @@ export const Container = styled.div`
         opacity: 0;
       }
     `}
-`;
+`
 
 export const Label = styled.span`
   width: 10px;
@@ -52,4 +52,4 @@ export const Label = styled.span`
   border-radius: 2px;
   display: inline-block;
   background: ${props => props.color};
-`;
+`

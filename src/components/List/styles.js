@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   padding: 0 15px;
@@ -35,4 +35,4 @@ export const Container = styled.div`
   ul {
     margin-top: 30px;
   }
-`;
+`
